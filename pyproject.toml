@@ -11,7 +11,7 @@ keywords = ["identicon", "avatar", "gravatar"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Pillow = "^9.5.0"
+Pillow = ">=9.5,<11.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
